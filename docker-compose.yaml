@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    container_name: Swinger-Test
+    volumes:
+      - .:/Swinger-Test
+    ports:
+      - "8000:8000" # Port mapping where the port 8000 of the container is mapped to the port 8000 of the host machine
