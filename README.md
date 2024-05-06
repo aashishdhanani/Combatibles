@@ -22,9 +22,9 @@ pip install -r requirements.txt
 4. Add your AzureOpenAI API key, your Azure endpoint, and your AzureOpenAI version to your .env file
 
 ```source-shell
-AZURE_OPENAI_API_KEY=[YOUR_OPEN_AI_KEY]
+AZURE_OPEN_AI_API_KEY=[YOUR_OPEN_AI_KEY]
 AZURE_ENDPOINT=[YOUR_AZURE_ENDPOINT]
-AZURE_OPENAI_VERSION=[YOUR_AZURE_OPENAI_VERSION]
+AZURE_API_VERSION=[YOUR_AZURE_OPENAI_VERSION]
 ```
 
 3. Start server
