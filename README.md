@@ -4,8 +4,8 @@ What you will need to run the frontend:
 - {something here}
 
 What you will need to run the server:
-- [Python >3] (https://www.python.org/)
-- [Pip] (https://pypi.org/project/pip/)
+- [Python >3](https://www.python.org/)
+- [Pip](https://pypi.org/project/pip/)
 - Azure OpenAI API Key, endpoint, and version
 
 ## Run the frontend
@@ -19,7 +19,7 @@ What you will need to run the server:
 pip install -r requirements.txt
 ```
 
-4. Add your AzureOpenAI API key, your Azure endpoint, and your AzureOpenAI version
+4. Add your AzureOpenAI API key, your Azure endpoint, and your AzureOpenAI version to your .env file
 
 ```source-shell
 AZURE_OPENAI_API_KEY=[YOUR_OPEN_AI_KEY]
