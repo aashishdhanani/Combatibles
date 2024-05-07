@@ -1,7 +1,8 @@
 # Combatibles
 
 What you will need to run the frontend:
-- {something here}
+- xcode
+- testflight
 
 What you will need to run the server:
 - [Python >3](https://www.python.org/)
